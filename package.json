@@ -1,0 +1,17 @@
+{
+  "name": "red-tetris",
+  "version": "1.0.0",
+  "description": "A tetris in multi-player",
+  "main": "server/main/app.js",
+  "scripts": {
+    "install": "cd client && npm i && cd ../server && npm i",
+    "dev:front": "cd client && npm run dev",
+    "dev:back": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "test": "cd server && npm test",
+    "coverage": "cd server && npm run coverage"
+  },
+  "author": "",
+  "license": "ISC"
+}

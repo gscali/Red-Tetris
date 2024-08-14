@@ -1,0 +1,6 @@
+{
+  "extension": ["js"],
+  "spec": "tests/**/*.test.js",
+  "recursive": true,
+  "watch-files": ["src"]
+}

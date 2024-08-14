@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Tetris';
+  src: url('/fonts/tetris.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+}
+
+html,
+body {
+  @apply h-full;
+  overscroll-behavior-y: none;
+}
+
+html,
+body {
+  @apply h-full overflow-hidden;
+  touch-action: manipulation;
+}

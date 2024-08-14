@@ -1,0 +1,5 @@
+.DS_Store
+.vscode
+server/scores.db
+coverage
+package-lock.json
